@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import 'zone.js';
+import 'zone.js/dist/long-stack-trace-zone.js';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
